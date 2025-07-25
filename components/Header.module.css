@@ -1,0 +1,39 @@
+.main_navbar {
+  background-color: rgb(7 26 8);
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin: 0px 10px 0px 10px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 8px 16px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.navLink:hover {
+  background-color: bisque;
+  color: black;
+}
+.dropdown_ul {
+  background: #0d361c;
+}
+.sub_dropdown {
+  font-size: 11px;
+  font-weight: bold;
+  background: #0d361c;
+  color: white !important;
+  padding: 10px;
+  border: 1px solid white;
+}
+.sub_dropdown:hover {
+  font-size: 13px;
+  font-weight: bold;
+  background: #14863e;
+  color: white !important;
+}
